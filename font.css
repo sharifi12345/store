@@ -1,0 +1,81 @@
+
+/* Light  */
+@font-face{
+    font-family: 'Shabnam';
+    font-weight: 300;
+    src: url(../boot-site/shabnam/Shabnam-FD.woff2),url(../boot-site/shabnam/Shabnam-FD.woff);
+    
+}
+/* Bould  */
+@font-face{
+    font-family: 'Shabnam';
+    font-weight:bold;
+    src: url(../boot-site/shabnam/Shabnam-Bold-FD.woff2),url(../boot-site/shabnam/Shabnam-Bold-FD.woff);
+    
+}
+
+/* normal  */
+@font-face{
+    font-family: 'Shabnam';
+    font-weight:normal;
+    src: url(../boot-site/shabnam/Shabnam-FD.woff2), url(../boot-site/shabnam/Shabnam-FD.woff);
+    
+}
+
+*{
+    font-family: Shabnam;
+}
+.icon{
+    color: deepskyblue;
+    background: #6f6b6b;
+    display: inline-flex;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.min-crosel{
+    background-color: #a5ccd0;
+    color: white;
+}
+.carousel{
+ margin: 0 auto;
+}
+
+.item{
+    text-decoration: none;
+    color: black;
+
+}
+.footer-header{
+    border-bottom: 4px solid black;
+    height: 35px;
+}
+body{
+    box-sizing: border-box;
+    color: white;
+}
+
+.box-nazrat{
+    border: 2px solid #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.border{border-radius: 8px;}
+
+.border-form{
+    border-top: 3px solid #eee;
+    
+}
+.rounded-full{
+    border-radius: 20px;
+}
+.atag{text-decoration: none;color: black;}
+.containerl{background-color: #6f6b6b;}
+
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
